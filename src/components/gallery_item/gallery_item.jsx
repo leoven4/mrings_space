@@ -1,17 +1,18 @@
+import { Outlet, Link } from "react-router-dom"; // must be nested in a BrowserRouter component
 import Button from '../button/button';
 import './gallery_item.scss';
 
 const GalleryItem = ({ item }) => {
-    const { name, imageUrl, setOpen } = item;
+    const { name, imageUrl, year } = item;
 
     return (
-        <div className="gallery_item">
+        <Link className="gallery_item" to='/work'>
             <img src={imageUrl} alt={`${name}`} />
             <div className="footer">
-                <span className="name">{name}</span>
+                <span className="name">{name} - {year}</span>
             </div>
-            <Button buttonType="inverted" onClick={() => setOpen(true)}>Open</Button>
-        </div>
+            <Button buttonType="inverted" >{name}</Button>
+        </Link>
     );
 };
 export default GalleryItem;

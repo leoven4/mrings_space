@@ -7,7 +7,7 @@ const LandingPage = () => {
   return(
     <div>
       <div className="enter_button">
-      <Link to="/home"><Button buttonType="inverted">Enter</Button></Link>
+      <Link to="/home"><Button >Enter</Button></Link>
       </div>
     </div>
 

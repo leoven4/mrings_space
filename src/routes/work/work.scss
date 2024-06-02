@@ -1,0 +1,59 @@
+.work_header{
+
+    color: rgb(17, 17, 17);
+    font-family: ldzs;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 25px;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.work_description{
+    color: rgb(17, 17, 17);
+    font-family: ldzs;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
+
+}
+
+.wrapper{
+    display: flex;
+
+    .work_detail_container{
+        flex: 7;
+        padding-bottom: 40px;
+        padding-top: 0px;
+        padding-bottom: px;
+        max-width: 1100px;
+
+        div{
+            line-height: 30px;
+        }
+    }
+    
+    .work_info_container{
+        flex: 33;
+        padding-top: 0px;
+        padding-bottom: px;
+        max-width: 1100px;
+
+        div{
+            line-height: 30px;
+        }
+    }
+     
+}
+
+
