@@ -23,15 +23,22 @@ const Gallery = () => {
 
 
   return (
-    <div className="gallery_wrapper">
-      <GalleryItem item={item1} />
+    <div>
+      <div className="gallery_header">martina anelli</div>
+      <div className="gallery_type">portfolio</div>
+      {/* <div className="triangle_wrapper">
+        <div className="triangle_down"></div>
+      </div> */}
+      <div className="gallery_wrapper">
+        <GalleryItem item={item1} />
 
-      <GalleryItem item={item2} />
+        <GalleryItem item={item2} />
 
-      <GalleryItem item={item1} />
+        <GalleryItem item={item1} />
 
-      <GalleryItem item={item2} />
+        <GalleryItem item={item2} />
 
+      </div>
     </div>
   );
 };

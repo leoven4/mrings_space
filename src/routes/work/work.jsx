@@ -2,7 +2,7 @@ import "./work.scss"
 
 const WorkGuardia25 = () => {
   return(
-    <div>
+    <div className="work_item">
         
         <div className="work_header">guardia25</div>
         <div className="work_description">Renovation of a residential flat.</div>
