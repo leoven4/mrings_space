@@ -1,0 +1,49 @@
+{
+  "homepage": "https://leoven4.github.io/l_space_v",
+  "name": "l_space_v",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@radix-ui/react-aspect-ratio": "1.0.3",
+    "@radix-ui/react-switch": "1.0.3",
+    "@radix-ui/react-tabs": "1.0.4",
+    "googleapis": "^126.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2",
+    "react-script": "^2.0.5",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.58.3",
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
