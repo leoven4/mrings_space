@@ -23,6 +23,8 @@ const Navigation = () => {
           </Link>
         </div>
       </div>
+
+      <hr/>
       <Outlet />
     </Fragment>
   );
