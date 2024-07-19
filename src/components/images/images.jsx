@@ -13,8 +13,7 @@ const Images = (props) => {
         <div
           onClick={() => handleClickImage(index)}
           key={index}
-          className='image'
-        >
+          className='image'>
           <img src={slide.src} alt={slide.description} />
         </div>
       ))}
