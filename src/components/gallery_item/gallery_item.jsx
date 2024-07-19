@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom"; // must be nested in a BrowserRouter component
+import { Link } from "react-router-dom"; // must be nested in a BrowserRouter component
 import Button from '../button/button';
 import './gallery_item.scss';
 
