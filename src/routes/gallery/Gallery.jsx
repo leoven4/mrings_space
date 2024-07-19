@@ -10,7 +10,6 @@ const Gallery = () => {
     year: "2023",
     location: "Bologna, Italy",
     cat: "Interior design| Residential"
-
     
   }
 

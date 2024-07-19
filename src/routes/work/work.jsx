@@ -1,6 +1,15 @@
+import { useState } from "react";
 import "./work.scss"
+import Lightbox from "yet-another-react-lightbox";
+import { slides } from "./data.jsx"
+import "yet-another-react-lightbox/styles.css";
+import { Thumbnails, Zoom } from "yet-another-react-lightbox/plugins";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Images from "../../components/images/images.jsx";
 
 const WorkGuardia25 = () => {
+    const [index, setIndex] = useState(-1);
+
   return(
     <div className="work_item">
         
@@ -30,6 +39,18 @@ const WorkGuardia25 = () => {
         </div>
 
         <div className="image_gallery">
+            
+            <Images
+                data={slides}
+                onClick={(currentIndex) => setIndex(currentIndex)}
+            />
+            <Lightbox 
+                plugins={[Thumbnails, Zoom]}
+                index={index}
+                open={index >= 0}
+                close={() => setIndex(-1)}                
+                slides={slides} >
+            </Lightbox>
         </div>
     </div>
 

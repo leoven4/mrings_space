@@ -16,7 +16,7 @@
     "react-scripts": "^5.0.1",
     "sass": "^1.58.3",
     "web-vitals": "^2.1.4",
-    "yet-another-react-lightbox": "^3.4.0"
+    "yet-another-react-lightbox": "^3.21.1"
   },
   "scripts": {
     "start": "react-scripts start",
