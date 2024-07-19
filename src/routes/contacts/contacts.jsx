@@ -4,21 +4,18 @@ import FormInput from '../../components/form_input/form_input'
 import Button from "../../components/button/button";
 
 const defaulFormFields = {
+  name: "",
   email: "",
-  password: "",
+  message: "",
 };
 
 const Contacts = () => {
   const [formFields, setFormFields] = useState(defaulFormFields);
-  const { email, password } = formFields;
+  const { name, email, message } = formFields;
 
-  // const {currentUser, setCurrentUser} = useContext(UserContext);
-  // const { setCurrentUser } = useContext(UserContext);
-
-
-  // const resetFormField = () => {
-  //   setFormFields(defaulFormFields)
-  // }    
+  const resetFormField = () => {
+    setFormFields(defaulFormFields)
+  }    
 
   // const handleSubmit = async (event) => {
   //   event.preventDefault();
@@ -46,11 +43,11 @@ const Contacts = () => {
   //   }
   // };
 
-  // const handleChange = (event) => {
-  //   const { name, value } = event.target;
-  //   setFormFields({ ...formFields, [name]: value });
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormFields({ ...formFields, [name]: value });
 
-  // };
+  };
 
   // const signInWithGoogle = async () => {
   //   const { user } = await signInWithGooglePopup();
@@ -61,30 +58,39 @@ const Contacts = () => {
 
   return (
     <div className="sign_up_container">
-      <h2>Already have an account?</h2>
-      <span>Sign up with your email and password</span>
+      <h2>Contact me</h2>
+      <span>Please send a message</span>
       <form onSubmit={()=>{}}>
+ 
+       <FormInput
+          label = 'Name'
+          type="name"
+          // required
+          name="name"
+          value={name}
+          onChange={handleChange}   
+        />
+
         <FormInput
           label = 'Email'
           type="email"
           // reqzsuired
           name="email"
           value={email}
-          onChange={()=>{}}   
+          onChange={handleChange}   
         />
  
         <FormInput
-          label = 'Password'
-          type="password"
+          label = 'Message'
+          type="message"
           // required
-          name="password"
-          value={password}
-          onChange={()=>{}}   
+          name="message"
+          value={message}
+          onChange={handleChange}   
         />
         
         <div className="buttons_container">
-          <Button type="submit">Sign in</Button>
-          <Button onClick={()=>{}} buttonType='google' type="submit">Google Sign in</Button>
+          <Button onClick={()=>{}} type="send">Send</Button>
         </div>
         
       </form>
