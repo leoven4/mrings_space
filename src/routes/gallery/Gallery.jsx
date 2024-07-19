@@ -6,7 +6,7 @@ const Gallery = () => {
 
   const item1 = {
     name: "guardia25",
-    imageUrl: "https://images.unsplash.com/photo-1535025183041-0991a977e25b?w=300&dpr=2&q=80",
+    imageUrl: "https://drive.google.com/thumbnail?id=1y8hkTteX1zzN_-EpZhqnedDbPe-h3yEj&sz=w1000",
     year: "2023",
     location: "Bologna, Italy",
     cat: "Interior design| Residential"
