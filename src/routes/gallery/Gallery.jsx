@@ -5,7 +5,7 @@ const Gallery = () => {
 
 
   const item1 = {
-    name: "GUARDIA25",
+    name: "guardia25",
     imageUrl: "https://images.unsplash.com/photo-1535025183041-0991a977e25b?w=300&dpr=2&q=80",
     year: "2023",
     location: "Bologna, Italy",
@@ -15,7 +15,7 @@ const Gallery = () => {
 
 
   const item2 = {
-    name: "MISA32",
+    name: "misa32",
     imageUrl: "https://images.unsplash.com/photo-1535025183041-0991a977e25b?w=300&dpr=2&q=80",
     year: '2023'
   }

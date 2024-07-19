@@ -6,7 +6,7 @@ const GalleryItem = ({ item }) => {
     const { name, imageUrl, year } = item;
 
     return (
-        <Link className="gallery_item" to='/work'>
+        <Link className="gallery_item" to={`/${name}`}>
             <img src={imageUrl} alt={`${name}`} />
             <div className="footer">
                 <span className="name">{name} - {year}</span>
