@@ -1,4 +1,5 @@
 import GalleryItem from "../../components/gallery_item/gallery_item";
+import Footer from "../footer/footer";
 import "./gallery.scss"
 
 const Gallery = () => {
@@ -38,6 +39,7 @@ const Gallery = () => {
         <GalleryItem item={item2} />
 
       </div>
+      <Footer></Footer>
     </div>
   );
 };
