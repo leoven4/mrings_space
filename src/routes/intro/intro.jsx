@@ -1,4 +1,5 @@
 import "./intro.scss"
+import Footer from "../footer/footer";
 
 const Intro = () => {
 
@@ -21,6 +22,9 @@ const Intro = () => {
         <p>Sincerely,</p>
         <p>Martina Anelli</p>
       </div>
+      
+      <Footer></Footer>
+
     </div>
     );
 

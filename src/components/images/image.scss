@@ -1,14 +1,15 @@
 .images-container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 2rem auto;
     display: grid;
+    // grid-template-columns: repeat(auto-fit, max-content [col-start] max-content [col-middle] max-content [col-end]);
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1rem;
   }
   
   .image {
     width: 100%;
-    height: 20rem;
+    height: 100%;
     cursor: pointer;
   }
   
@@ -16,5 +17,5 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 0px;
   }

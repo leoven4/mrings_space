@@ -2,6 +2,7 @@ import { useState } from "react";
 import './contacts.scss'
 import FormInput from '../../components/form_input/form_input'
 import Button from "../../components/button/button";
+import Footer from "../footer/footer";
 
 const defaulFormFields = {
   name: "",
@@ -94,6 +95,9 @@ const Contacts = () => {
         </div>
         
       </form>
+
+      <Footer></Footer>
+
     </div>
   );
 };
