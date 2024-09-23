@@ -1,5 +1,6 @@
 import { slides } from "./data.jsx"
 import WorkPage from "../../components/work_page/work.jsx";
+import Footer from "../footer/footer.jsx";
 
 const Guardia25 = () => {
 
@@ -19,7 +20,10 @@ const Guardia25 = () => {
     }
 
   return(
-    <WorkPage work_item={work_item}/>
+    <div>
+        <WorkPage work_item={work_item}/>
+        <Footer></Footer>
+    </div>
     );
 };
 
