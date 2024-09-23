@@ -1,5 +1,4 @@
 .work_header{
-
     color: rgb(17, 17, 17);
     font-size: 24px;
     line-height: 30px;
@@ -27,13 +26,14 @@
 
 .wrapper{
     display: flex;
+    width: 80%;
+    margin: auto;
 
     .work_detail_container{
         flex: 7;
         padding-bottom: 40px;
         padding-top: 0px;
-        padding-bottom: px;
-        min-width: 200px;
+        min-width: 150px;
         font-weight: bold;
 
         div{
@@ -45,8 +45,7 @@
         flex: 33;
         padding-top: 0px;
         padding-bottom: px;
-        max-width: 1100px;
-
+        min-width: 200px;
 
         div{
             line-height: 30px;
