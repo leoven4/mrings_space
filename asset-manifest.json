@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mrings_space/static/css/main.f3a21f53.css",
+    "main.css": "/mrings_space/static/css/main.52abc62b.css",
     "main.js": "/mrings_space/static/js/main.68b74cb6.js",
     "static/js/453.f571f560.chunk.js": "/mrings_space/static/js/453.f571f560.chunk.js",
     "static/media/crown.svg": "/mrings_space/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
     "index.html": "/mrings_space/index.html",
-    "main.f3a21f53.css.map": "/mrings_space/static/css/main.f3a21f53.css.map",
+    "main.52abc62b.css.map": "/mrings_space/static/css/main.52abc62b.css.map",
     "main.68b74cb6.js.map": "/mrings_space/static/js/main.68b74cb6.js.map",
     "453.f571f560.chunk.js.map": "/mrings_space/static/js/453.f571f560.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3a21f53.css",
+    "static/css/main.52abc62b.css",
     "static/js/main.68b74cb6.js"
   ]
 }
