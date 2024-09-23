@@ -6,7 +6,11 @@ const Intro = () => {
   return (
     <div>
       <h1 className="title">ABOUT ME</h1>
-      <div className="portrait"></div>
+      
+      <div className="portrait">
+        <img src="https://images.unsplash.com/photo-1535025183041-0991a977e25b?w=300&dpr=2&q=80"></img>
+      </div>
+
       <div className="text">
         <p>I’m architect Martina Anelli from Bologna, Italy.</p>
         <p>From the very beginning of my career as a student first and as professional then, I always believed in the power that architecture has on the people who experience it. It influences their behavior, their habits, their sense of community and their feel of safety in places that they live every day. For these reasons in my work I always tried to put persons first. To achieve this goal is important to combine empathy with clients and creativity, not only in terms of composition but also of process and technology, with a specific attention for green solutions and techniques to create more comfortable and livable spaces. </p>
@@ -22,7 +26,7 @@ const Intro = () => {
         <p>Sincerely,</p>
         <p>Martina Anelli</p>
       </div>
-      
+
       <Footer></Footer>
 
     </div>
