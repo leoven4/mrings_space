@@ -9,7 +9,7 @@ const Guardia25 = () => {
         'brief' : 'Renovation of a residential flat.',
         'location' : 'Bologna',
         'year' : '2023',
-        'mode' : 'Interior design| Residential',
+        'mode' : 'Interior design | Residential',
         'slides': slides,
         'description' : [
             'The project consists in the renovation of a residential flat in the city of Bologna, Italy. The construction of the building is quite new, it dates back to 2009. The family wants to renew finishes and some furnishings and change the distribution of some spaces.',
