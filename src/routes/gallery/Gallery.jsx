@@ -18,7 +18,7 @@ const Gallery = () => {
 
   const item2 = {
     name: "misa32",
-    imageUrl: "https://drive.google.com/drive-viewer/AKGpihZqkSeei6qaJprJiKLgKRBErWozspmo8EHzWP0zHdS0wAzEMJnIwCUpKkJTA2QxdctyLbN9KCnSUjTB4AHYUlcHdspubU_ecfI=s1600-rw-v1",
+    imageUrl: "https://drive.google.com/thumbnail?id=1R2qrX7EJooTv-PrjujpwsAF-zaqV8GLr&sz=w1000",
     year: '2023',
     location: "Bologna, Italy",
     cat: "Outdoor design| Terrace"

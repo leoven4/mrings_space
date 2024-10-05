@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { slides } from "./data.jsx"
+import { slides } from "./data_misa32.jsx"
 import Work from "../../components/work_item/work.jsx";
 import Footer from "../footer/footer.jsx";
 import Lightbox from "yet-another-react-lightbox";
@@ -30,8 +30,30 @@ const Misa32 = () => {
     <div>
         <Work work_item={work_item}/>
         <div className="image_gallery">
+            <p>existing condition</p>
             <Images
-                data={work_item['slides']}
+                data={work_item['slides'].slice(0,3)}
+                onClick={(currentIndex) => setIndex(currentIndex)}
+            />
+
+            <p>the green paradise</p>
+            <p>Thanks to different paths all the areas are connected to each other and a mix of grass, wood, stone and corten effects creates a green and natural oasis on the top of the building, far away from the chaotic city. The peculiarity of this project is the creation of an open air kitchen with an integrated barbecue and sink. The relaxed area become a cinema at will, but also some footstools are provided on the grass.</p>
+            <Images
+                data={work_item['slides'].slice(4,11)}
+                onClick={(currentIndex) => setIndex(currentIndex)}
+            />
+
+            <p>elegance on top</p>
+            <p>This project is certainly the most elegant of the three. The boundaries of the terrace are defined by a light concrete floor of tiles and a thin line of white pebbles. All around there are plants vases with graminaceous plants and the cinema area is a proper space with footstools on a carpet of straw. A big freestanding barbecue is located in the north.</p>
+            <Images
+                data={work_item['slides'].slice(12,17)}
+                onClick={(currentIndex) => setIndex(currentIndex)}
+            />
+
+            <p>the exotic venue</p>
+            <p>The last proposal is the most easy to realize, but at the same time there is a particular attention to details. All the areas are defined by a sort of "carpet" of grit of shells tiles connected to each other by paths. This solution is more exotic, not only for the shells on the floor, but also for the choosen plants and textiles. The patterns are really eclectic and colourful and they should recall exotic countries and moods.</p>
+            <Images
+                data={work_item['slides'].slice(18,24)}
                 onClick={(currentIndex) => setIndex(currentIndex)}
             />
             <Lightbox 
