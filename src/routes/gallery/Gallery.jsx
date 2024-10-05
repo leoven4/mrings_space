@@ -5,7 +5,7 @@ import "./gallery.scss"
 const Gallery = () => {
 
 
-  const item1 = {
+  const guardia25 = {
     name: "guardia25",
     imageUrl: "https://drive.google.com/thumbnail?id=1y8hkTteX1zzN_-EpZhqnedDbPe-h3yEj&sz=w1000",
     year: "2023",
@@ -14,7 +14,7 @@ const Gallery = () => {
     
   }
 
-  const item2 = {
+  const misa32 = {
     name: "misa32",
     imageUrl: "https://drive.google.com/thumbnail?id=1R2qrX7EJooTv-PrjujpwsAF-zaqV8GLr&sz=w1000",
     year: '2023',
@@ -23,7 +23,14 @@ const Gallery = () => {
     
   }
 
-
+  const torre = {
+    name: "la torre",
+    imageUrl: "https://drive.google.com/thumbnail?id=1R2qrX7EJooTv-PrjujpwsAF-zaqV8GLr&sz=w1000",
+    year: '2022',
+    location: "Sasso Marconi (BO), Italy",
+    cat: "Design-based zoning reconstruction | Residential village"
+    
+  }
   return (
     <div>
       <div className="gallery_header">martina anelli</div>
@@ -32,13 +39,13 @@ const Gallery = () => {
         <div className="triangle_down"></div>
       </div> */}
       <div className="gallery_wrapper">
-        <GalleryItem item={item1} />
+        <GalleryItem item={guardia25} />
 
-        <GalleryItem item={item2} />
+        <GalleryItem item={misa32} />
 
-        <GalleryItem item={item1} />
+        <GalleryItem item={torre} />
 
-        <GalleryItem item={item1} />
+        <GalleryItem item={guardia25} />
 
       </div>
       <Footer></Footer>
