@@ -15,11 +15,15 @@ const Gallery = () => {
   }
 
 
-  // const item2 = {
-  //   name: "misa32",
-  //   imageUrl: "https://images.unsplash.com/photo-1535025183041-0991a977e25b?w=300&dpr=2&q=80",
-  //   year: '2023'
-  // }
+
+  const item2 = {
+    name: "misa32",
+    imageUrl: "https://drive.google.com/drive-viewer/AKGpihZqkSeei6qaJprJiKLgKRBErWozspmo8EHzWP0zHdS0wAzEMJnIwCUpKkJTA2QxdctyLbN9KCnSUjTB4AHYUlcHdspubU_ecfI=s1600-rw-v1",
+    year: '2023',
+    location: "Bologna, Italy",
+    cat: "Outdoor design| Terrace"
+    
+  }
 
 
   return (
@@ -32,7 +36,7 @@ const Gallery = () => {
       <div className="gallery_wrapper">
         <GalleryItem item={item1} />
 
-        <GalleryItem item={item1} />
+        <GalleryItem item={item2} />
 
         <GalleryItem item={item1} />
 

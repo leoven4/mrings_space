@@ -8,7 +8,7 @@ const Intro = () => {
       <h1 className="title">ABOUT ME</h1>
       
       <div className="portrait">
-        <img src="https://images.unsplash.com/photo-1535025183041-0991a977e25b?w=300&dpr=2&q=80"></img>
+        <img alt="" src="https://images.unsplash.com/photo-1535025183041-0991a977e25b?w=300&dpr=2&q=80"></img>
       </div>
 
       <div className="text">

@@ -14,9 +14,9 @@ const Contacts = () => {
   const [formFields, setFormFields] = useState(defaulFormFields);
   const { name, email, message } = formFields;
 
-  const resetFormField = () => {
-    setFormFields(defaulFormFields)
-  }    
+  // const resetFormField = () => {
+  //   setFormFields(defaulFormFields)
+  // }    
 
   // const handleSubmit = async (event) => {
   //   event.preventDefault();
