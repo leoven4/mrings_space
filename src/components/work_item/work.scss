@@ -1,57 +1,62 @@
-.work_header{
-    color: rgb(17, 17, 17);
-    font-size: 24px;
-    line-height: 30px;
-    padding-bottom: 2px;
-    padding-top: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-    font-weight: bold;
-}
 
-.work_description{
-    color: rgb(17, 17, 17);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    padding-bottom: 20px;
-    padding-top: 0px;
-    text-align: center;
-    text-transform: none;
-    width: 100%;
-
-}
-
-.wrapper{
-    display: flex;
-    width: 90%;
-    margin: auto;
-
-    .work_detail_container{
-        flex: 7;
-        padding-bottom: 40px;
-        padding-top: 0px;
-        min-width: 150px;
-        font-weight: bold;
-
-        div{
-            line-height: 30px;
-        }
-    }
+.work_item{
+    margin-top: 4%;
+    margin-bottom: 4%;
     
-    .work_info_container{
-        flex: 33;
-        padding-top: 0px;
-        padding-bottom: px;
-        min-width: 200px;
-
-        div{
-            line-height: 30px;
-        }
+    .work_header{
+        color: rgb(17, 17, 17);
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 2px;
+        padding-top: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+        font-weight: bold;
     }
-     
-}
 
+    .work_description{
+        color: rgb(17, 17, 17);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        text-align: center;
+        text-transform: none;
+        width: 100%;
+
+    }
+
+    .wrapper{
+        display: flex;
+        width: 90%;
+        margin: auto;
+
+        .work_detail_container{
+            flex: 7;
+            padding-bottom: 40px;
+            padding-top: 0px;
+            min-width: 150px;
+            font-weight: bold;
+
+            div{
+                line-height: 30px;
+            }
+        }
+        
+        .work_info_container{
+            flex: 33;
+            padding-top: 0px;
+            padding-bottom: px;
+            min-width: 200px;
+
+            div{
+                line-height: 30px;
+            }
+        }
+        
+    }
+}
 

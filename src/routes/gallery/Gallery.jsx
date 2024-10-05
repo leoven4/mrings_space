@@ -14,8 +14,6 @@ const Gallery = () => {
     
   }
 
-
-
   const item2 = {
     name: "misa32",
     imageUrl: "https://drive.google.com/thumbnail?id=1R2qrX7EJooTv-PrjujpwsAF-zaqV8GLr&sz=w1000",

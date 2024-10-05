@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { slides } from "./data.jsx"
+import { slides } from "./data_guardia25.jsx"
 import Work from "../../components/work_item/work.jsx";
 import Footer from "../footer/footer.jsx";
 import Lightbox from "yet-another-react-lightbox";
