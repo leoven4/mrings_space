@@ -1,15 +1,14 @@
 import { Outlet, Link } from "react-router-dom"; // must be nested in a BrowserRouter component
 import { Fragment } from "react"; // allow to use a wrapping div without rendering an actual <div> in the DOM
-import { ReactComponent as CrwLogo } from "../../assets/crown.svg";
 import "./navigation.scss";
 
 const Navigation = () => {
-
+  
   return (
     <Fragment>
       <div className="navigation">
         <Link className="logo_container" to="/">
-          <CrwLogo className="logo" />
+          <img src="https://drive.google.com/thumbnail?id=1Q6doHPrZbbX4-1WmL7zSpxB7uH2C0mro&sz=w1000" alt="?" className="image_test"></img>
         </Link>
         <div className="nav_links_container">
           <Link className="nav_link" to="/gallery">
