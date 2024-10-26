@@ -27,31 +27,32 @@
 
     }
 
-    .triangle_wrapper{
-        margin-left: auto;
-        margin-right: auto;
-        align-content: center;
+    // .triangle_wrapper{
+    //     margin-left: auto;
+    //     margin-right: auto;
+    //     align-content: center;
 
-        .triangle_down {    
-            position: relative;
-            top: -5px;
-            content: "";
-            display: inline-block;
-            width: 15px;
-            height: 15px;
-            border-right: 0.2em solid black;
-            border-top: 0.2em solid black;
-            transform: rotate(135deg);
-            margin-right: 0.5em;
-            margin-left: 1.0em;
-        }
-    }
+    //     .triangle_down {    
+    //         position: relative;
+    //         top: -5px;
+    //         content: "";
+    //         display: inline-block;
+    //         width: 15px;
+    //         height: 15px;
+    //         border-right: 0.2em solid black;
+    //         border-top: 0.2em solid black;
+    //         transform: rotate(135deg);
+    //         margin-right: 0.5em;
+    //         margin-left: 1.0em;
+    //     }
+    // }
 
 
     .gallery_wrapper {
-
+        
+        margin: 10%;
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
         grid-column-gap: 10px;
         grid-row-gap: 30px;
     }
