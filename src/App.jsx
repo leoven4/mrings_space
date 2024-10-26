@@ -1,6 +1,6 @@
 import Navigation from "./routes/navigation/navigation.jsx"
 import { Routes, Route } from 'react-router-dom'  // must be nested in a BrowserRouter component
-import Gallery from "./routes/gallery/gallery.jsx";
+import Gallery from "./routes/gallery/Gallery.jsx";
 // import LandingPage from "./routes/landing/landing.jsx";
 import Intro from "./routes/intro/intro.jsx";
 import Guardia25 from "./routes/guardia25/guardia25.jsx";
