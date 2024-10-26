@@ -15,6 +15,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 20px 40px;
+  color: #525252;
+
 }
 
 input {
@@ -30,7 +32,7 @@ input {
 /* no underline links */
 a {
   text-decoration: none;
-  color: black;
+  color: #525252;
 }
 
 /* to include padding and border in box */

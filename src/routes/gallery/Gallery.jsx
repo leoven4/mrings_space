@@ -33,8 +33,8 @@ const Gallery = () => {
   }
   return (
     <div>
-      <div className="gallery_header">martina anelli</div>
-      <div className="gallery_type">portfolio</div>
+      <h1 className="gallery_header">martina anelli</h1>
+      <div className="gallery_type">projects</div>
       {/* <div className="triangle_wrapper">
         <div className="triangle_down"></div>
       </div> */}
