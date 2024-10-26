@@ -1,4 +1,4 @@
-import {FiLinkedin, FiMail} from "react-icons/fi";
+import {FiInstagram, FiLinkedin, FiMail} from "react-icons/fi";
 import "./footer.scss";
 
 let currentYear = new Date().getFullYear()
@@ -7,14 +7,18 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/",
+    url: "https://www.linkedin.com/in/martina-anelli-326a76143/",
   },
   {
     id: 2,
-    icon: <FiMail />,
-    url: "https://www.linkedin.com/in/",
+    icon: <FiInstagram />,
+    url: "https://www.instagram.com/marti.tecture/",
   },
-
+  {
+    id: 3,
+    icon: <FiMail />,
+    url: "mailto:studio@anellimartina.com",
+  },
 ];
 
 const Footer = () => {

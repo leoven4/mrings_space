@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
 
 body {
-  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+  background: white ;
+  
+  /* linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%); */
 
   margin: 0;
 
   font-size: 16px;
+  font-weight: 400;
   font-style: normal;
-  /* font-family: "Edu AU VIC WA NT Guides", cursive; */
-  font-family: 'Courier New', monospace;
+  font-family: "Hedvig Letters Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 20px 40px;
@@ -19,10 +22,10 @@ input {
 
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 /* no underline links */
 a {
