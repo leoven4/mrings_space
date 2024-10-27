@@ -1,26 +1,26 @@
-const gallery_content = {
+export const gallery_content = {
 
     casa_martina : {
         name: "casa martina",
-        url: "",
-        year: "",
+        imageUrl: "",
+        year: "", 
     },
 
     casa_federico : {
         name: "casa federico",
-        url: "",
-        year: "",
+        imageUrl: "https://drive.google.com/thumbnail?id=1LZX9C78TsT6mLKFSHx7MAUkgpEo_A4DV&sz=w1000",
+        year: "2024",
     },
 
     casa_andrea : {
         name: "casa andrea",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     terrazza_nancy : {
         name: "terrazza nancy",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
@@ -31,55 +31,55 @@ const gallery_content = {
 
     wellness_center : {
         name: "water and roses welness center",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     skyclimber_ticinum : {
         name: "skyclimber ticinum",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     garden_ball : {
         name: "garden ball",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     muba : {
         name: "muba",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     porticoes : {
         name: "porticoes of bologna for unesco",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     fair_booths : {
         name: "fair booths",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     nordstadt : {
         name: "nordstadt: join the colors",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     multiple_city : {
         name: "multiple-city",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
     sava : {
         name: "the sava valley",
-        url: "",
+        imageUrl: "",
         year: "",
     },
 
@@ -92,6 +92,4 @@ const gallery_content = {
         name: "misa32",
         imageUrl: "https://drive.google.com/thumbnail?id=1R2qrX7EJooTv-PrjujpwsAF-zaqV8GLr&sz=w1000",
         year: '2023'},
-
-
 }
