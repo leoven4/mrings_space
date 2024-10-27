@@ -3,9 +3,9 @@ import { Routes, Route } from 'react-router-dom'  // must be nested in a Browser
 import Gallery from "./routes/gallery/Gallery.jsx";
 // import LandingPage from "./routes/landing/landing.jsx";
 import Intro from "./routes/intro/intro.jsx";
-import Guardia25 from "./routes/guardia25/guardia25.jsx";
-import Misa32 from "./routes/misa32/misa32.jsx";
-import Torre from "./routes/torre/torre.jsx";
+import Guardia25 from "./routes/w_guardia25/guardia25.jsx";
+import Misa32 from "./routes/w_misa32/misa32.jsx";
+import Torre from "./routes/w_torre/torre.jsx";
 import Contacts from "./routes/contacts/contacts.jsx";
 // import Footer from "./routes/footer/footer.jsx"
 
