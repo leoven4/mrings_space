@@ -20,10 +20,9 @@ export const gallery_content = {
 
     terrazza_nancy : {
         name: "terrazza nancy",
-        imageUrl: "",
-        year: "",
+        imageUrl: "https://drive.google.com/thumbnail?id=1PMqqA5hFM50yJqlMaDPAwMuABorACdXg&sz=w1000",
+        year: "2023",
     },
-
     torre : {
         name: "la torre",
         imageUrl: "https://drive.google.com/thumbnail?id=1TQSZGXMeesOJFabQiTeWbOMh5jlnFiJq&sz=w1000",

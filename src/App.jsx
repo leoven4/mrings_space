@@ -9,6 +9,7 @@ import CasaFederico from "./routes/w_casa_federico/casa_federico.jsx"
 import Guardia25 from "./routes/w_guardia25/guardia25.jsx";
 import Misa32 from "./routes/w_misa32/misa32.jsx";
 import Torre from "./routes/w_torre/torre.jsx";
+import TerrazzaNancy from "./routes/w_terrazza_nancy/w_terrazza_nancy.jsx";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/guardia25' element={<Guardia25 />} />
         <Route path='/misa32' element={<Misa32 />} />
         <Route path='/la torre' element={<Torre />} />
+        <Route path='/terrazza nancy' element={<TerrazzaNancy />} />
 
         
         <Route path='/contacts' element={<Contacts />} />
