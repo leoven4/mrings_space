@@ -18,6 +18,7 @@ const Gallery = () => {
         <GalleryItem item={gallery_content['water_and_roses']} />
         <GalleryItem item={gallery_content['skyclimber_ticinum']} />
         <GalleryItem item={gallery_content['garden_ball']} />
+        <GalleryItem item={gallery_content['muba']} />
 
         <GalleryItem item={gallery_content['guardia25']} />
         <GalleryItem item={gallery_content['misa32']} />
