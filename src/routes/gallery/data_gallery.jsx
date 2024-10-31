@@ -57,9 +57,9 @@ export const gallery_content = {
         year: "",
     },
 
-    fair_booths : {
-        name: "fair booths",
-        imageUrl: "",
+    fair_booth : {
+        name: "fair booth",
+        imageUrl: "'https://drive.google.com/thumbnail?id=1sEV9QO_xXU3MGrfQYS1QsCPByxMYamuX&sz=w1000'",
         year: "",
     },
 

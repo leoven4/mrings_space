@@ -14,6 +14,7 @@ import WaterAndRoses from "./routes/w_water_and_roses/w_water_and_roses.jsx";
 import Skyclimber from "./routes/w_skyclimber/skyclimber.jsx";
 import GardenBall from "./routes/w_garden_ball/garden_ball.jsx";
 import Muba from "./routes/w_muba/muba.jsx";
+import Fair from "./routes/w_fair/fair.jsx";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <Route path='/skyclimber ticinum' element={<Skyclimber />} />
         <Route path='/garden ball' element={<GardenBall />} />
         <Route path='/muba' element={<Muba />} />
+        <Route path='/fair booth' element={<Fair />} />
 
         
         <Route path='/contacts' element={<Contacts />} />
