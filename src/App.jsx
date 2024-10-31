@@ -11,6 +11,7 @@ import Misa32 from "./routes/w_misa32/misa32.jsx";
 import Torre from "./routes/w_torre/torre.jsx";
 import TerrazzaNancy from "./routes/w_terrazza_nancy/w_terrazza_nancy.jsx";
 import WaterAndRoses from "./routes/w_water_and_roses/w_water_and_roses.jsx";
+import Skyclimber from "./routes/w_skyclimber/skyclimber.jsx";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/la torre' element={<Torre />} />
         <Route path='/terrazza nancy' element={<TerrazzaNancy />} />
         <Route path='/water and roses' element={<WaterAndRoses />} />
+        <Route path='/skyclimber ticinum' element={<Skyclimber />} />
 
         
         <Route path='/contacts' element={<Contacts />} />

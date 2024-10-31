@@ -13,13 +13,13 @@ const Gallery = () => {
       <div className="gallery_wrapper">
 
         <GalleryItem item={gallery_content['casa_federico']} />
-
-        <GalleryItem item={gallery_content['misa32']} />
+        <GalleryItem item={gallery_content['terrazza_nancy']} />
         <GalleryItem item={gallery_content['torre']} />
         <GalleryItem item={gallery_content['water_and_roses']} />
+        <GalleryItem item={gallery_content['skyclimber_ticinum']} />
 
         <GalleryItem item={gallery_content['guardia25']} />
-        <GalleryItem item={gallery_content['terrazza_nancy']} />
+        <GalleryItem item={gallery_content['misa32']} />
 
       </div>
       <Footer></Footer>
