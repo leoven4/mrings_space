@@ -28,12 +28,11 @@ export const gallery_content = {
         imageUrl: "https://drive.google.com/thumbnail?id=1TQSZGXMeesOJFabQiTeWbOMh5jlnFiJq&sz=w1000",
         year: '2022'},
 
-    wellness_center : {
-        name: "water and roses welness center",
-        imageUrl: "",
-        year: "",
+    water_and_roses : {
+        name: "water and roses",
+        imageUrl: "https://drive.google.com/thumbnail?id=1x_j_6x248YPW_ULP7W6yWyt8CXyPihNc&sz=w1000", 
+        year: "2021",
     },
-
     skyclimber_ticinum : {
         name: "skyclimber ticinum",
         imageUrl: "",

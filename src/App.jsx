@@ -10,6 +10,7 @@ import Guardia25 from "./routes/w_guardia25/guardia25.jsx";
 import Misa32 from "./routes/w_misa32/misa32.jsx";
 import Torre from "./routes/w_torre/torre.jsx";
 import TerrazzaNancy from "./routes/w_terrazza_nancy/w_terrazza_nancy.jsx";
+import WaterAndRoses from "./routes/w_water_and_roses/w_water_and_roses.jsx";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/misa32' element={<Misa32 />} />
         <Route path='/la torre' element={<Torre />} />
         <Route path='/terrazza nancy' element={<TerrazzaNancy />} />
+        <Route path='/water and roses' element={<WaterAndRoses />} />
 
         
         <Route path='/contacts' element={<Contacts />} />
