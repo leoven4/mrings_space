@@ -59,13 +59,11 @@ export const gallery_content = {
 
     fair_booth : {
         name: "fair booth",
-        imageUrl: "'https://drive.google.com/thumbnail?id=1sEV9QO_xXU3MGrfQYS1QsCPByxMYamuX&sz=w1000'",
         year: "",
     },
-
     nordstadt : {
-        name: "nordstadt: join the colors",
-        imageUrl: "",
+        name: "nordstadt",
+        imageUrl: "https://drive.google.com/thumbnail?id=18x6wTzxPNMMi6crtQOKHZVorr_u5IzyR&sz=w1000",
         year: "",
     },
 
