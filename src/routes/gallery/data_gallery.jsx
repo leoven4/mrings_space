@@ -39,10 +39,9 @@ export const gallery_content = {
         imageUrl: "https://drive.google.com/thumbnail?id=1inwKjVBQUs5EIGweO3dtZBqe8PQaO6OA&sz=w1000",         
         year: "2022",
     },
-
     garden_ball : {
         name: "garden ball",
-        imageUrl: "",
+        imageUrl: "https://drive.google.com/thumbnail?id=1pOVjElExuwarX3Rnn3W5170Tf1VOPuRE&sz=w1000",         
         year: "",
     },
 

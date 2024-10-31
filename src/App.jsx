@@ -12,6 +12,7 @@ import Torre from "./routes/w_torre/torre.jsx";
 import TerrazzaNancy from "./routes/w_terrazza_nancy/w_terrazza_nancy.jsx";
 import WaterAndRoses from "./routes/w_water_and_roses/w_water_and_roses.jsx";
 import Skyclimber from "./routes/w_skyclimber/skyclimber.jsx";
+import GardenBall from "./routes/w_garden_ball/garden_ball.jsx";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/terrazza nancy' element={<TerrazzaNancy />} />
         <Route path='/water and roses' element={<WaterAndRoses />} />
         <Route path='/skyclimber ticinum' element={<Skyclimber />} />
+        <Route path='/gareden ball' element={<GardenBall />} />
 
         
         <Route path='/contacts' element={<Contacts />} />
