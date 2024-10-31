@@ -21,6 +21,7 @@ const Gallery = () => {
         <GalleryItem item={gallery_content['muba']} />
         <GalleryItem item={gallery_content['fair_booth']} />
         <GalleryItem item={gallery_content['nordstadt']} />
+        <GalleryItem item={gallery_content['sava_valley']} />
 
         <GalleryItem item={gallery_content['guardia25']} />
         <GalleryItem item={gallery_content['misa32']} />

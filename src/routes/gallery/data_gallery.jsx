@@ -73,9 +73,9 @@ export const gallery_content = {
         year: "",
     },
 
-    sava : {
-        name: "the sava valley",
-        imageUrl: "",
+    sava_valley : {
+        name: "sava valley",
+        imageUrl: "https://drive.google.com/thumbnail?id=1uEyM3zfqSUjUA7RjdR3YVzJ6WS6u1Bgj&sz=w1000",
         year: "",
     },
 
