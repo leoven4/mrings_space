@@ -17,6 +17,7 @@ import Muba from "./routes/w_muba/muba.jsx";
 import Fair from "./routes/w_fair/fair.jsx";
 import Nordstadt from "./routes/w_nordstadt/nordstadt.jsx";
 import SavaValley from "./routes/w_sava_valley/sava_valley.jsx";
+import CasaAndrea from "./routes/w_casa_andrea/casa_andrea.jsx";
 
 const App = () => {
   return (
@@ -27,6 +28,8 @@ const App = () => {
         <Route path='/intro' element={<Intro />} />
 
         <Route path='/casa federico' element={<CasaFederico />} />
+        <Route path='/casa andrea' element={<CasaAndrea />} />
+
         <Route path='/guardia25' element={<Guardia25 />} />
         <Route path='/misa32' element={<Misa32 />} />
         <Route path='/la torre' element={<Torre />} />

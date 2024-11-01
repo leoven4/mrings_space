@@ -16,7 +16,7 @@ const TerrazzaNancy = () => {
 
     const work_item = {
         title : 'terrazza nancy',
-        brief : 'Restyling of a residential villa.',
+        brief : 'Renovation of a terrace of 130 square meters at 9th floor af a residential building. Three preliminary projects and different moodboards.',
         location : 'Bologna, Italy',
         year : '2023',
         mode : 'Outdoor design | Terrace',

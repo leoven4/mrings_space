@@ -13,6 +13,7 @@ const Gallery = () => {
       <div className="gallery_wrapper">
 
         <GalleryItem item={gallery_content['casa_federico']} />
+        <GalleryItem item={gallery_content['casa_andrea']} />
         <GalleryItem item={gallery_content['terrazza_nancy']} />
         <GalleryItem item={gallery_content['torre']} />
         <GalleryItem item={gallery_content['water_and_roses']} />
@@ -22,9 +23,6 @@ const Gallery = () => {
         <GalleryItem item={gallery_content['fair_booth']} />
         <GalleryItem item={gallery_content['nordstadt']} />
         <GalleryItem item={gallery_content['sava_valley']} />
-
-        <GalleryItem item={gallery_content['guardia25']} />
-        <GalleryItem item={gallery_content['misa32']} />
 
       </div>
       <Footer></Footer>
