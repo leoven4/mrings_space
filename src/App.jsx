@@ -27,21 +27,17 @@ const App = () => {
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/intro' element={<Intro />} />
 
-        <Route path='/casa federico' element={<CasaFederico />} />
-        <Route path='/casa andrea' element={<CasaAndrea />} />
-
-        <Route path='/guardia25' element={<Guardia25 />} />
-        <Route path='/misa32' element={<Misa32 />} />
-        <Route path='/la torre' element={<Torre />} />
-        <Route path='/terrazza nancy' element={<TerrazzaNancy />} />
-        <Route path='/water and roses' element={<WaterAndRoses />} />
-        <Route path='/skyclimber ticinum' element={<Skyclimber />} />
-        <Route path='/garden ball' element={<GardenBall />} />
+        <Route path='/casa_federico' element={<CasaFederico />} />
+        <Route path='/casa_andrea' element={<CasaAndrea />} />
+        <Route path='/terrazza_nancy' element={<TerrazzaNancy />} />
+        <Route path='/torre' element={<Torre />} />
+        <Route path='/water_and_roses' element={<WaterAndRoses />} />
+        <Route path='/skyclimber_ticinum' element={<Skyclimber />} />
+        <Route path='/garden_ball' element={<GardenBall />} />
         <Route path='/muba' element={<Muba />} />
-        <Route path='/fair booth' element={<Fair />} />
+        <Route path='/fair_booth' element={<Fair />} />
         <Route path='/nordstadt' element={<Nordstadt />} />
-        <Route path='/sava valley' element={<SavaValley />} />
-
+        <Route path='/sava_valley' element={<SavaValley />} />
         
         <Route path='/contacts' element={<Contacts />} />
       </Route>
