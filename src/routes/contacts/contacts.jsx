@@ -14,48 +14,11 @@ const Contacts = () => {
   const [formFields, setFormFields] = useState(defaulFormFields);
   const { name, email, message } = formFields;
 
-  // const resetFormField = () => {
-  //   setFormFields(defaulFormFields)
-  // }    
-
-  // const handleSubmit = async (event) => {
-  //   event.preventDefault();
-
-  //   try {
-
-  //     const {user} = await signInAuthUserWithEmailAndPassword(email, password);
-  //     // setCurrentUser(user);        
-  //     resetFormField();
-
-  //   }catch(error){
-
-  //     switch(error.code){  
-  //       case 'auth/wrong-password':
-  //         alert('Incorrect password or email');
-  //         break;
-        
-  //         case 'auth/user-not-found':
-  //         alert('Userr not found');
-  //         break;
-        
-  //         default:
-  //         console.log(error)
-  //     }
-  //   }
-  // };
-
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormFields({ ...formFields, [name]: value });
 
   };
-
-  // const signInWithGoogle = async () => {
-  //   const { user } = await signInWithGooglePopup();
-  //   // setCurrentUser(user);        
-  //   await creareUserDocumentFromAuth(user);
-  // };
-
 
   return (
     <div className="sign_up_container">

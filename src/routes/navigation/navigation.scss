@@ -16,17 +16,18 @@
   }
 
   .nav_links_container {
-    width: 50%;
+    width: 30%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-top: 25px;
 
     .nav_link {
-      width: 200px;
       padding: 10px 15px;
       cursor: pointer;
     }
+
   }
 
 }
