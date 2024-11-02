@@ -16,6 +16,7 @@ import Fair from "./routes/w_fair/fair.jsx";
 import Nordstadt from "./routes/w_nordstadt/nordstadt.jsx";
 import SavaValley from "./routes/w_sava_valley/sava_valley.jsx";
 import CasaAndrea from "./routes/w_casa_andrea/casa_andrea.jsx";
+import CasaMartina from "./routes/w_casa_martina/casa_martina.jsx";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/intro' element={<Intro />} />
 
+        <Route path='/casa_martina' element={<CasaMartina />} />
         <Route path='/casa_federico' element={<CasaFederico />} />
         <Route path='/casa_andrea' element={<CasaAndrea />} />
         <Route path='/terrazza_nancy' element={<TerrazzaNancy />} />

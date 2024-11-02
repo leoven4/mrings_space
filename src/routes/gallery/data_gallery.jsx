@@ -3,8 +3,8 @@ export const gallery_content = {
     casa_martina : {
         id : "casa_martina",
         name: "casa martina",
-        imageUrl: "",
-        year: "", 
+        imageUrl: "https://drive.google.com/thumbnail?id=1JHMDLdGUoZZbT8pJPlETUKHu8NLU2jyq&sz=w1000",
+        year: "2024", 
     },
 
     casa_federico : {

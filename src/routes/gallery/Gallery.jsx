@@ -12,6 +12,7 @@ const Gallery = () => {
 
       <div className="gallery_wrapper">
 
+        <GalleryItem item={gallery_content['casa_martina']} />
         <GalleryItem item={gallery_content['casa_federico']} />
         <GalleryItem item={gallery_content['casa_andrea']} />
         <GalleryItem item={gallery_content['terrazza_nancy']} />
