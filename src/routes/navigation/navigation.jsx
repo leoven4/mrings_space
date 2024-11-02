@@ -8,7 +8,7 @@ const Navigation = () => {
     <Fragment>
       <div className="navigation">
         <Link className="logo_container" to="/">
-          <img src="https://drive.google.com/thumbnail?id=1Q6doHPrZbbX4-1WmL7zSpxB7uH2C0mro&sz=w1000" alt="?" className="image_test"></img>
+          <img src="https://drive.google.com/thumbnail?id=1Q6doHPrZbbX4-1WmL7zSpxB7uH2C0mro&sz=w1000" alt="?" className="logo"></img>
         </Link>
         <div className="nav_links_container">
           <Link className="nav_link" to="/gallery">
