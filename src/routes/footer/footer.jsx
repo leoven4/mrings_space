@@ -34,6 +34,9 @@ const Footer = () => {
           </a>
         ))}
       </ul>
+
+      <hr/>
+      <p className="copyright">Copyright © 2024 Arch. Martina Anelli - Via Decumana 17 – 40133 Bologna (BO) - P.IVA: 04000231201 - C.F.: NLLMTN90C59A944E</p>
     </div>
   );
 };

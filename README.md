@@ -1,3 +1,13 @@
+# TODO
+
+    - email address
+    - work description
+    - pic title
+    - pic grid
+    - copyright, p.iva, ecc
+    - new details in work page
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
