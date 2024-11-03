@@ -1,6 +1,8 @@
-// https://drive.google.com/file/d/1y8hkTteX1zzN_-EpZhqnedDbPe-h3yEj/view?usp=sharing
+import Work from "../../components/work/work.jsx";
 
-export const slides = [
+const SavaValley = () => {
+
+    const slides = [
     {
       src: 'https://drive.google.com/thumbnail?id=1BTCELvpMLXVgd83Bk6b5dlomdATtsX1M&sz=w1000',
       title: '',
@@ -34,3 +36,31 @@ export const slides = [
     },
   ]
 
+
+
+    const work_item = {
+        title : 'sava',
+        brief : 'Project to restore landscape dignity to the village of Litja - Slovenia',
+        
+                
+        detail: ['location', 'project year',  'category'],
+        info : ['Litja, Slovenia', '2015', 'University course | Landscape architecture'],
+
+        content: [
+            {
+                subtitle : '',
+                text : [],
+                pics : slides
+            }
+        ]
+        
+    }
+
+  return(
+    <div>
+        <Work work_item={work_item}/>
+    </div>
+    );
+};
+
+export default SavaValley;

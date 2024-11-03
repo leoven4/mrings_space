@@ -1,6 +1,8 @@
-// https://drive.google.com/file/d/1y8hkTteX1zzN_-EpZhqnedDbPe-h3yEj/view?usp=sharing
+import Work from "../../components/work/work.jsx";
 
-export const slides = [
+const Fair = () => {
+
+    const slides = [
     {
       src: 'https://drive.google.com/thumbnail?id=1u8npWML8UYsPz8OI6jeYX&sz=w1000',
       title: '',
@@ -73,3 +75,28 @@ export const slides = [
     },
 
     ]
+    const work_item = {
+        title : 'fair booth',
+        brief : 'The following picture slideshow presents some of the projects realized for the company QBO Stand in Bologna. Some design projects have been approved and built in fairs in the Middle and North of Italy.',
+        
+        detail: [],
+        info : [],
+
+        content: [
+            {
+                subtitle : '',
+                text : [],
+                pics : slides
+            }
+        ],
+
+    }
+
+  return(
+    <div>
+        <Work work_item={work_item}/>
+    </div>
+    );
+};
+
+export default Fair;
