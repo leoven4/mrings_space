@@ -37,11 +37,6 @@ const Work = ({ work_item }) => {
         
         </div>
 
-        {/* <div>
-            {work_item['description'].map((description, id) => (
-            <p key={id}>{description}</p>))}
-        </div> */}
-
         <div className="image_gallery">
             <div>
                 {work_item['content'].map((content, id) => (
