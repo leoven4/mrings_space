@@ -52,7 +52,9 @@ const Skyclimber = () => {
 
         detail: ['location','project year', 'category', 'team', 'status'],
         info : ['Pavia, Italy', '2022', 'Competitions | Hangar', 'Ilaria Guidalotti, Giulio Gaddoni', 'Design'],
-        
+
+        slides : slides,
+
         content : [
             {subtitle : 'THE RUIN',
                 text : [

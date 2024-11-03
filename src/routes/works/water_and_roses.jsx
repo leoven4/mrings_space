@@ -35,10 +35,11 @@ const WaterAndRoses = () => {
     const work_item = {
         title : 'Water and roses',
         brief : 'Renovation project of the “L’acqua e le rose” wellness centre inside Pavilion 2 of Sant’Orsola Hospital in Bologna. Job partly accomplished.',
-        
-         
+                 
         detail: ['location','project year', 'status', 'team', 'category'],
         info : ['Bologna, Italy', '2021', 'Partially completed', 'Progetto Heimat', 'Interior design | Wellness center, hospital'],
+
+        slides : slides,
 
         content: [
             {

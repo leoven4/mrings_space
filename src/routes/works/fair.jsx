@@ -82,6 +82,8 @@ const Fair = () => {
         detail: [],
         info : [],
 
+        slides : slides,
+
         content: [
             {
                 subtitle : '',

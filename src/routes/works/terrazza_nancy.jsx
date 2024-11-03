@@ -101,6 +101,8 @@ const TerrazzaNancy = () => {
         detail: ['location','project year', 'status', 'category'],
         info : ['Bologna, Italy', '2023', 'design', 'Outdoor design | Terrace'],
 
+        slides : slides,
+
         content: [
             {
                 subtitle : '',

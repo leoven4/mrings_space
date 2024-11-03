@@ -56,6 +56,7 @@ const Work = ({ work_item }) => {
                 close={() => setIndex(-1)}                
                 slides={work_item['slides']} >
             </Lightbox>
+            
         </div>
         <Footer></Footer>
     </div>

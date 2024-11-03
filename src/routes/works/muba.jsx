@@ -69,6 +69,8 @@ const Muba = () => {
         detail: ['location','project year', 'status',  'team', 'category'],
         info : ['Bologna, Italy', '2019', '2nd place | Design', 'Arch. Veronica Schiaroli, Ing. Daniele Mazza, Ing. Massimo Di Marco, Dott. Giuseppe Ciro De Gregorio', 'Competitions | Museum'],
 
+        slides : slides,
+
         content: [
             {
                 subtitle : '',

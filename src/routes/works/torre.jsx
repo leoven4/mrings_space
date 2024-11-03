@@ -119,6 +119,8 @@ const Torre = () => {
         
         detail: ['location','project year', 'status', 'category',],
         info : ['Sasso Marconi (BO), Italy', '2022', 'Design', 'Design-based zoning reconstruction | Residential village'],
+
+        slides : slides,
         
         content : [
             {subtitle : '',

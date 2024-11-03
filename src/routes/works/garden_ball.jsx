@@ -83,6 +83,8 @@ const GardenBall = () => {
         detail: ['location','project year', 'status',  'category'],
         info : ['Bologna, Italy', '2020', 'design', 'Master Thesis | Urban regeneration'],
 
+        slides : slides,
+
         content: [
             {
                 subtitle : '',

@@ -44,6 +44,8 @@ const Nordstadt = () => {
         detail: ['location','project year',  'category'],
         info : ['Kassel, Germany', '2017', 'International workshop | Landscape education for democracy'],
 
+        slides : slides,
+
         content: [
             {
                 subtitle : '',

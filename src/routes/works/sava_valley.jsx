@@ -41,7 +41,8 @@ const SavaValley = () => {
     const work_item = {
         title : 'sava',
         brief : 'Project to restore landscape dignity to the village of Litja - Slovenia',
-        
+    
+        slides : slides,
                 
         detail: ['location', 'project year',  'category'],
         info : ['Litja, Slovenia', '2015', 'University course | Landscape architecture'],

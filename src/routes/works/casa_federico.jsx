@@ -52,6 +52,8 @@ const CasaFederico = () => {
         detail: ['location','project year', 'status',  'category'],
         info : ['Bologna, Italy', '2024', 'completed', 'Interior design | Residential'],
 
+        slides : slides,
+
         content: [
             {
                 subtitle : '',
