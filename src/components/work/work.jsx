@@ -37,16 +37,23 @@ const Work = ({ work_item }) => {
         
         </div>
 
-        <div>
+        {/* <div>
             {work_item['description'].map((description, id) => (
             <p key={id}>{description}</p>))}
-        </div>
+        </div> */}
 
         <div className="image_gallery">
-            <Images
-                data={work_item['slides']}
-                onClick={(currentIndex) => setIndex(currentIndex)}
-            />
+            <div>
+                {work_item['content'].map((content, id) => (
+                    <div key={id}>
+                        <p className="subtitle">{content.subtitle}</p>
+                            {content.text.map((paragraph, id) => (
+                                <p className="text" key={id}>{paragraph})</p>
+                            ))}
+                        <Images data={content.pics} onClick={(currentIndex) => setIndex(currentIndex)}/>
+                    </div>))}
+            </div>
+            
             <Lightbox 
                 plugins={[Thumbnails, Zoom]}
                 index={index}
