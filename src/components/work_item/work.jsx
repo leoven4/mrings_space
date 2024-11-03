@@ -28,13 +28,16 @@ const Work = ({ work_item }) => {
         </div>
 
         <div>
-            <p>{work_item['description'][0]}</p>
-            <p>{work_item['description'][1]}</p>
+            {work_item['description'].map((description) => (
+            <p>{description}</p>))}
+            <p>{work_item['description']}</p>
+
+            {/* <p>{work_item['description'][1]}</p>
             <p>{work_item['description'][2]}</p>
             <p>{work_item['description'][3]}</p>
             <p>{work_item['description'][4]}</p>
             <p>{work_item['description'][5]}</p>
-            <p>{work_item['description'][6]}</p>
+            <p>{work_item['description'][6]}</p> */}
 
         </div>
 

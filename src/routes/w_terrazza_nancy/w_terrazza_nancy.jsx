@@ -26,7 +26,9 @@ const TerrazzaNancy = () => {
             'The project concerns the renovation of a terrace of 130 square meters at 9th floor of a residential building in Bologna, close to the city center. The space belongs to a residential and private attic on the top floor and this position offers a stunning view at 360-degree to the city and its hills.',
             'Half of the whole terrace is already renovated with a glass veranda and a plank floor. The aim of the project is to create a covered space for smart working activities thanks to the building of a bioclimatic pergola with adjustable slats and sliding curtains that can be open and close at will. In addition the client asks for an open air relaxation area with sofas and sun beds, with the possibility to create a cinema area with a big and removable screen. A small space should be addressed to the barbecue nearby the drainpipe. All around the space are provided plants vases with different shapes and finishes and different type of plants according to the moodboard, which irrigation is regulated by an automatic irrigation system that take the water to a water accumulation tank located on the terrace.',
             'In the following slideshow are presented two different projects with two different moodboards.',
-            'EXISTING CONDITION',
+            'EXISTING CONDITION'],
+            
+        additional_content : [
             'THE GREEN PARADISE',
             'This solution brings some green on the terrace. Thanks to different paths all the areas are connected to each other and a mix of grass, wood, stone and corten effects creates a green and natural oasis on the top of the building, far away from the chaotic city. The peculiarity of this project is the creation of an open air kitchen with an integrated barbecue and sink. The relaxed area become a cinema at will, but also some footstools are provided on the grass.',
             'ELEGANCE ON TOP',
