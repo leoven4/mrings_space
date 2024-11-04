@@ -11,7 +11,7 @@ const Navigation = () => {
           <img src="https://drive.google.com/thumbnail?id=1Q6doHPrZbbX4-1WmL7zSpxB7uH2C0mro&sz=w1000" alt="?" className="logo"></img>
         </Link>
         <div className="nav_links_container">
-          <Link className="nav_link" to="/gallery">
+          <Link className="nav_link_work" to="/gallery">
             WORK
           </Link>
           <Link className="nav_link" to="/intro">
