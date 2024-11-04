@@ -21,6 +21,7 @@ const Contacts = () => {
   };
 
   return (
+  <div>
     <div className="sign_up_container">
       <h2>Contact me</h2>
       <span>Please send a message</span>
@@ -58,10 +59,9 @@ const Contacts = () => {
         </div>
         
       </form>
-
-      <Footer></Footer>
-
     </div>
+      <Footer></Footer>
+  </div>
   );
 };
 

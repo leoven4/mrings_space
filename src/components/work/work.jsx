@@ -43,7 +43,7 @@ const Work = ({ work_item }) => {
                     <div key={id}>
                         <p className="subtitle">{content.subtitle}</p>
                             {content.text.map((paragraph, id) => (
-                                <p className="text" key={id}>{paragraph})</p>
+                                <p className="text" key={id}>{paragraph}</p>
                             ))}
                         <Images data={content.pics} onClick={(currentIndex) => setIndex(currentIndex)}/>
                     </div>))}
