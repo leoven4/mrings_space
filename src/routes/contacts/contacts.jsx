@@ -12,6 +12,7 @@ const defaulFormFields = {
 
 const REMOTE = "https://considerable-alberta-leoven-c40c0f78.koyeb.app/";
 const LOCAL = "http://localhost:8000/"
+const server_location = REMOTE
 
 const Contacts = () => {
   const [formFields, setFormFields] = useState(defaulFormFields);
@@ -55,7 +56,7 @@ const Contacts = () => {
   
   const logGet = async () => {
     
-    const response = await fetch(LOCAL)
+    const response = await fetch(server_location)
     const content = await response.json()
     console.log(content.message);
   };
@@ -68,7 +69,7 @@ const Contacts = () => {
       message: message,
     };
   
-    await fetch(LOCAL,
+    await fetch(server_location,
     {
       method: "PUT",
       headers: {"Content-Type": "application/json"},
