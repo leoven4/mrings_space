@@ -4,7 +4,7 @@ import FormInput from '../../components/form_input/form_input'
 import Button from "../../components/button/button";
 import Footer from "../footer/footer";
 
-let enable_submit = true;
+let enable_submit = false;
 
 const defaulFormFields = {
   name: "",
@@ -14,14 +14,32 @@ const defaulFormFields = {
 
 const Contacts = () => {
   const [formFields, setFormFields] = useState(defaulFormFields);
-  const { name, email, message } = formFields;
+  let { name, email, message } = formFields;
+
+  const isValidEmail = (email) => {
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return emailRegex.test(email);
+  }
+
+  const checkInput = () => {
+    if (name.trim().length === 0 || email.trim().length === 0 || message.trim().length === 0 || !isValidEmail(email)){
+      enable_submit = false;
+    } else {
+      enable_submit = true;
+    }
+  }
 
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormFields({ ...formFields, [name]: value });
+
+    checkInput()
+    console.log(enable_submit)
   };
 
   const callback = () => {
+
+    checkInput();
 
     if (enable_submit)
     {
@@ -59,38 +77,40 @@ const Contacts = () => {
         <h2>Contact me</h2>
         <span>Please send a message</span>
         <div>
-  
+
+        <form action="/" onSubmit={() => {}} method="POST">
         <FormInput
             label = 'Name'
             type="name"
-            // required
             name="name"
             value={name}
+            required
             onChange={handleChange}   
           />
 
           <FormInput
             label = 'Email'
             type="email"
-            // reqzsuired
             name="email"
             value={email}
+            required
             onChange={handleChange}   
           />
   
           <FormInput
             label = 'Message'
             type="message"
-            // required
             name="message"
             value={message}
+            required
             onChange={handleChange}   
           />
-          
+
           <div className="buttons_container">
-            <Button onClick={callback} type="send">Send</Button>
+            <Button onClick={callback} type="send" disabled={false}>Send</Button>
           </div>
-          
+          </form>
+
         </div>
       </div>
         <Footer></Footer>
