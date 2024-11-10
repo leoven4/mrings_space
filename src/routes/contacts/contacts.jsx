@@ -7,14 +7,14 @@ import Footer from "../footer/footer";
 let enable_submit = false;
 
 const defaulFormFields = {
-  name: "",
+  user: "",
   email: "",
   message: "",
 };
 
 const Contacts = () => {
   const [formFields, setFormFields] = useState(defaulFormFields);
-  let { name, email, message } = formFields;
+  let { user, email, message } = formFields;
 
   const isValidEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -22,7 +22,7 @@ const Contacts = () => {
   }
 
   const checkInput = () => {
-    if (name.trim().length === 0 || email.trim().length === 0 || message.trim().length === 0 || !isValidEmail(email)){
+    if (user.trim().length === 0 || email.trim().length === 0 || message.trim().length === 0 || !isValidEmail(email)){
       enable_submit = false;
     } else {
       enable_submit = true;
@@ -57,7 +57,7 @@ const Contacts = () => {
   const sendPut = async () => {
   
     const content = {
-      name: name,
+      user: user,
       email: email,
       message: message,
     };
@@ -82,8 +82,8 @@ const Contacts = () => {
         <FormInput
             label = 'Name'
             type="name"
-            name="name"
-            value={name}
+            name="user"
+            value={user}
             required
             onChange={handleChange}   
           />
