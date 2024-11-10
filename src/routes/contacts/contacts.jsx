@@ -4,17 +4,22 @@ import FormInput from '../../components/form_input/form_input'
 import Button from "../../components/button/button";
 import Footer from "../footer/footer";
 
-let enable_submit = false;
-
 const defaulFormFields = {
   user: "",
   email: "",
   message: "",
 };
 
+const REMOTE = "https://considerable-alberta-leoven-c40c0f78.koyeb.app/";
+const LOCAL = "http://localhost:8000/"
+
 const Contacts = () => {
   const [formFields, setFormFields] = useState(defaulFormFields);
+  
   let { user, email, message } = formFields;
+  let enable_submit = false;
+
+
 
   const isValidEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -49,7 +54,8 @@ const Contacts = () => {
   };
   
   const logGet = async () => {
-    const response = await fetch("http://localhost:8000/")
+    
+    const response = await fetch(LOCAL)
     const content = await response.json()
     console.log(content.message);
   };
@@ -62,7 +68,7 @@ const Contacts = () => {
       message: message,
     };
   
-    await fetch(`http://localhost:8000/`,
+    await fetch(LOCAL,
     {
       method: "PUT",
       headers: {"Content-Type": "application/json"},
@@ -78,7 +84,7 @@ const Contacts = () => {
         <span>Please send a message</span>
         <div>
 
-        <form action="/" onSubmit={() => {}} method="POST">
+        {/* <form action="/" onSubmit={() => {}} method="POST"> */}
         <FormInput
             label = 'Name'
             type="name"
@@ -109,7 +115,7 @@ const Contacts = () => {
           <div className="buttons_container">
             <Button onClick={callback} type="send" disabled={false}>Send</Button>
           </div>
-          </form>
+          {/* </form> */}
 
         </div>
       </div>
