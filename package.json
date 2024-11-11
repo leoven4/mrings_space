@@ -7,6 +7,7 @@
     "@radix-ui/react-aspect-ratio": "1.0.3",
     "@radix-ui/react-switch": "1.0.3",
     "@radix-ui/react-tabs": "1.0.4",
+    "emailjs-com": "^3.2.0",
     "googleapis": "^126.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
