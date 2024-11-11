@@ -6,27 +6,19 @@ import Footer from "../footer/footer";
 import emailjs from 'emailjs-com';
 
 
-const defaulFormFields = {
-  user: "",
-  email: "",
-  message: "",
-};
-
-
 const REMOTE = "https://considerable-alberta-leoven-c40c0f78.koyeb.app/";
 const LOCAL = "http://localhost:8000/"
 const server_location = REMOTE
 
 const Contacts = () => {
-  // const [formFields, setFormFields] = useState(defaulFormFields);
-  // let { user, email, message } = formFields;
 
   const [formFields, setFormFields] = useState({
-    from_name: '',
-    from_email: '',
+    user: '',
+    email: '',
     message: '',
   });
-  let { from_name, from_email, message } = formFields;
+
+  let { user, email, message } = formFields;
 
   let enable_submit = false;
 
@@ -48,21 +40,21 @@ const Contacts = () => {
   const isValidEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return emailRegex.test(email);
-  }
+  };
 
-  // const checkInput = () => {
-  //   if (user.trim().length === 0 || email.trim().length === 0 || message.trim().length === 0 || !isValidEmail(email)){
-  //     enable_submit = false;
-  //   } else {
-  //     enable_submit = true;
-  //   }
-  // }
+  const checkInput = () => {
+    if (user.trim().length === 0 || email.trim().length === 0 || message.trim().length === 0 || !isValidEmail(email)){
+      enable_submit = false;
+    } else {
+      enable_submit = true;
+    }
+  };
 
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormFields({ ...formFields, [name]: value });
 
-    // checkInput()
+    checkInput()
     console.log(enable_submit)
   };
 
@@ -112,8 +104,8 @@ const Contacts = () => {
         <FormInput
             label = 'Name'
             type="name"
-            name="from_name"
-            value={from_name}
+            name="user"
+            value={user}
             required
             onChange={handleChange}   
           />
@@ -121,8 +113,8 @@ const Contacts = () => {
           <FormInput
             label = 'Email'
             type="email"
-            name="from_email"
-            value={from_email}
+            name="email"
+            value={email}
             required
             onChange={handleChange}   
           />
