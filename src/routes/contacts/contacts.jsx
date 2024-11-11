@@ -21,8 +21,11 @@ const Contacts = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    checkInput();
+    
     // Send email via EmailJS
-    emailjs.send('service_ji5hq6q', 'template_gbeenxt', formFields, 'fFz_GsfwNcDyDBBxm')
+    if (enable_submit){
+      emailjs.send('service_ji5hq6q', 'template_gbeenxt', formFields, 'fFz_GsfwNcDyDBBxm')
       .then((response) => {
         console.log('Success:', response);
         alert('Your message has been sent!');
@@ -31,6 +34,8 @@ const Contacts = () => {
         console.error('Error:', error);
         alert('Failed to send your message, please try again later.');
       });
+    }
+
   };
 
   const isValidEmail = (email) => {
