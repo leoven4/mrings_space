@@ -4,12 +4,13 @@ const Fair = () => {
 
     const slides = [
     {
-      src: 'https://drive.google.com/thumbnail?id=1u8npWML8UYsPz8OI6jeYX&sz=w1000',
+
+      src: 'https://drive.google.com/thumbnail?id=1u8npWML8UYsPz8OI6jeYX-EPJSJq3Rsf&sz=w1000',
       title: '',
       description: '',
     },
     {
-      src: 'https://drive.google.com/thumbnail?id=1aNyfX8LY4xSzXDLHu4LUZZQtWZH&sz=w1000',
+      src: 'https://drive.google.com/thumbnail?id=1aNyfX8LY4xSzXDLHu4LUZZQtWZH-hiQC&sz=w1000',
       title: '',
       description: '',
     },

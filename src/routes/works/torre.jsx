@@ -154,7 +154,10 @@ const Torre = () => {
                 
             {subtitle : 'BUILDING N. 5 - existing condition/reconstruction from the past/new project ',
                 text : [],
-                pics : slides.slice(10,)},
+                pics : slides.slice(10,13)},
+            {subtitle : 'RENDER VIEWS',
+              text : [],
+              pics : slides.slice(13,)},
         ]
     }
 

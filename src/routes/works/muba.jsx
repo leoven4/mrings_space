@@ -4,9 +4,8 @@ import Work from "../../components/work/work.jsx";
 const Muba = () => {
 
     const slides = [
-
     {
-      src: 'https://drive.google.com/thumbnail?id=1jQ0nUD_MeUZuUZ0esXS_KD_QFAFM7e2P&sz=w1000',
+      src: 'https://drive.google.com/thumbnail?id=1lbpG3b7A3ss-V65HkYUKo4or4v47Uc_Q&sz=w1000',
       title: '',
       description: '',
     },
@@ -30,11 +29,11 @@ const Muba = () => {
       title: 'bedroom',
       description: '',
     },
-    {
-      src: 'https://drive.google.com/thumbnail?id=1UksXgp5WW2d99zejRPogtzG7OzEFkCLR&sz=w1000',
-      title: 'bedroom',
-      description: '',
-    },
+    // {
+    //   src: 'https://drive.google.com/thumbnail?id=1UksXgp5WW2d99zejRPogtzG7OzEFkCLR&sz=w1000',
+    //   title: 'bedroom',
+    //   description: '',
+    // },
     {
       src: 'https://drive.google.com/thumbnail?id=14w5J13VNiWMdpO4VkRP24cQTgGUUU0Vs&sz=w1000',
       title: 'wardrobe',
@@ -55,11 +54,11 @@ const Muba = () => {
       title: 'bedroom',
       description: '',
     },
-    {
-      src: 'https://drive.google.com/thumbnail?id=1veCfVStfoGeCFkIz0ahIC4JoPF3ZfUF1&sz=w1000',
-      title: 'wardrobe',
-      description: '',
-    }
+    // {
+    //   src: 'https://drive.google.com/thumbnail?id=1veCfVStfoGeCFkIz0ahIC4JoPF3ZfUF1&sz=w1000',
+    //   title: 'wardrobe',
+    //   description: '',
+    // }
     ]
 
     const work_item = {

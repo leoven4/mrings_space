@@ -111,19 +111,19 @@ const TerrazzaNancy = () => {
                     'Half of the terrace has already been renovated with a glass veranda and a plank floor. The project aims to create a covered space for brilliant working activities thanks to building a bioclimatic pergola with adjustable slats and sliding curtains that can be opened and closed at will. In addition, the client asks for an open-air relaxation area with sofas and sun beds, possibly creating a cinema area with a big and removable screen. A small space should be allocated for the barbecue near the drainpipe. All around the space are plant vases with different shapes and finishes and different types of plants. According to the mood board, irrigation is regulated by an automatic irrigation system that takes the water to a water accumulation tank on the terrace.',
                     'The following slideshow presents two different projects with two different mood boards.',
                     'EXISTING CONDITION'],
-                pics : slides.slice(0,3)
+                pics : slides.slice(0,4)
             },
             {
                 subtitle : 'THE GREEN PARADISE',
                 text : [
                     'This solution brings some green to the terrace. Thanks to different paths, all the areas are connected, and a mix of grass, wood, stone, and corten effects creates a green and natural oasis on the top of the building, far away from the chaotic city. The peculiarity of this project is the creation of an open-air kitchen with an integrated barbecue and sink. The relaxed area becomes a cinema at will, and some footstools are provided on the grass.'],
-                pics : slides.slice(3,9)
+                pics : slides.slice(4,10)
             },
             {
                 subtitle : 'ELEGANCE ON TOP',
                 text : [
                     'This project has undoubtedly the most elegant design. The boundaries of the terrace are defined by a light concrete floor of tiles and a thin line of white pebbles, a design choice that creates a sense of elegance and sophistication. All around, there are plant vases with graminaceous plants, and the cinema area is a proper space with footstools on a carpet of straw. A big freestanding barbecue is located in the north, providing a focal point for the space.',],
-                pics : slides.slice(9,)
+                pics : slides.slice(10,)
             }
         ],       
         

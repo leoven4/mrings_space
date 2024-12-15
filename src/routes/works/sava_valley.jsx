@@ -51,8 +51,32 @@ const SavaValley = () => {
             {
                 subtitle : '',
                 text : [],
-                pics : slides
-            }
+                pics : slides.slice(0,1)
+              },
+  
+              {
+                  subtitle : '',
+                  text : [],
+                  pics : slides.slice(1,2)
+              },
+              {
+                  subtitle : '',
+                  text : [],
+                  pics : slides.slice(2,3)
+              },
+  
+              {
+                  subtitle : '',
+                  text : [],
+                  pics : slides.slice(3,4)
+              },
+  
+              {
+                  subtitle : '',
+                  text : [],
+                  pics : slides.slice(4,5)
+              }
+            
         ]
         
     }

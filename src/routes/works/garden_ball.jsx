@@ -9,7 +9,7 @@ const GardenBall = () => {
       description: '',
     },
     {
-      src: 'https://drive.google.com/thumbnail?id=https://drive.google.com/file/d/11Gp_c2knK1Enf9ZX_4vzTHjOYV49Dnfk/view?usp=drive_link&sz=w1000',
+      src: 'https://drive.google.com/thumbnail?id=11Gp_c2knK1Enf9ZX_4vzTHjOYV49Dnfk&sz=w1000',
       title: 'hall',
       description: '',
     },

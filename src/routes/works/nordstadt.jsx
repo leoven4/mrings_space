@@ -54,8 +54,33 @@ const Nordstadt = () => {
                     'Starting from landscape analysis and interviews with locals and stakeholders, Nordstat\'s landscape is a moving target in which constants are exchanged. A scientific approach was adopted to such a humanistic subject, using the Equation of Change to identify the leading causes of dissatisfaction and resistance to change. Two main scenarios emerged: first, it affected the community and their miscommunication and misinterpretation of most of the events, and second, it impacted the spaces seen as unpleasant and invisible by the inhabitants. Then, the team designed a detailed change process that could be hosted by the community and involve them in achieving excellent results - a bottom-up approach.',
                     'The whole change process is divided into three different steps. The first step is to find out what people need and focus on what Nordstadt has. The short term takes 10 months and consists of engaging and listening to all actors involved, such as people of different social classes and locals. A vital institution to consider is a university and its students, which could be involved in creating more engagement and activities in the area. The active community can join this process by coloring fences, benches, and shop facades, also thanks to graffiti marches or competitions promoted. During Kassel IP, the team selected a few district areas where it would be possible to start the process and figure out their change. The second step takes 3 years, and Nordstadt people show their efforts to the local Municipality, which discusses their will for the future through meetings. In the meantime, the landscape upgrade will be finished with implemented color furniture. Finally, in the long term, outsiders will change their impressions about Nordstadt, and many more activities could be held, such as street closure for festivals. Media play a fundamental role in the whole process, which aims to change the idea of Nordstadt outside the district and invite people to visit it.'
                 ],
-                pics : slides
-            }
+                pics : slides.slice(0,1)
+              },
+  
+              {
+                  subtitle : '',
+                  text : [],
+                  pics : slides.slice(1,2)
+              },
+              {
+                  subtitle : '',
+                  text : [],
+                  pics : slides.slice(2,3)
+              },
+  
+              {
+                  subtitle : '',
+                  text : [],
+                  pics : slides.slice(3,4)
+              },
+  
+              {
+                  subtitle : '',
+                  text : [],
+                  pics : slides.slice(4,5)
+              }
+            
+            
         ]
 
     }
