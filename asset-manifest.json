@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mrings_space/static/css/main.22908708.css",
-    "main.js": "/mrings_space/static/js/main.90aa84f4.js",
+    "main.js": "/mrings_space/static/js/main.ac4514c9.js",
     "index.html": "/mrings_space/index.html",
     "main.22908708.css.map": "/mrings_space/static/css/main.22908708.css.map",
-    "main.90aa84f4.js.map": "/mrings_space/static/js/main.90aa84f4.js.map"
+    "main.ac4514c9.js.map": "/mrings_space/static/js/main.ac4514c9.js.map"
   },
   "entrypoints": [
     "static/css/main.22908708.css",
-    "static/js/main.90aa84f4.js"
+    "static/js/main.ac4514c9.js"
   ]
 }
