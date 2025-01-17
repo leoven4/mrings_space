@@ -42,7 +42,7 @@ const Nordstadt = () => {
         brief : 'LED arranges for an international workshop called Intensive Programme. In Kassel, in 2017, IP Participants are encouraged to engage directly with the urban landscape and with local communities of the “Nordstadt”, and to address locally specific landscape challenges. Participants refer to concepts of landscape, democracy and participation.',
         
         detail: ['location','project year',  'category'],
-        info : ['Kassel, Germany', '2017', 'International workshop | Landscape education for democracy'],
+        info : ['Kassel, Germany', '2017', 'International Workshop | Landscape Education for Democracy'],
 
         slides : slides,
 
@@ -77,7 +77,7 @@ const Nordstadt = () => {
               {
                   subtitle : '',
                   text : [],
-                  pics : slides.slice(4,5)
+                  pics : slides.slice(4,)
               }
             
             

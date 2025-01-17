@@ -45,7 +45,7 @@ const SavaValley = () => {
         slides : slides,
                 
         detail: ['location', 'project year',  'category'],
-        info : ['Litja, Slovenia', '2015', 'University course | Landscape architecture'],
+        info : ['Litja, Slovenia', '2015', 'University Course | Landscape Architecture'],
 
         content: [
             {
@@ -74,7 +74,7 @@ const SavaValley = () => {
               {
                   subtitle : '',
                   text : [],
-                  pics : slides.slice(4,5)
+                  pics : slides.slice(4,)
               }
             
         ]

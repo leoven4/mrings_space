@@ -99,7 +99,7 @@ const TerrazzaNancy = () => {
         
  
         detail: ['location','project year', 'status', 'category'],
-        info : ['Bologna, Italy', '2023', 'design', 'Outdoor design | Terrace'],
+        info : ['Bologna, Italy', '2023', 'design', 'Outdoor Design | Terrace'],
 
         slides : slides,
 

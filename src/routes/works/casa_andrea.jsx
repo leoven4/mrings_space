@@ -60,7 +60,7 @@ const CasaAndrea = () => {
         brief : 'Renovation of a residential flat.',
 
         detail: ['location','project year', 'status',  'team', 'category'],
-        info : ['Bologna, Italy', '2023', 'completed', 'Arch. Cristina Marchi', 'Interior design | Residential'],
+        info : ['Bologna, Italy', '2023', 'Completed', 'Arch. Cristina Marchi', 'Interior Design | Residential'],
 
         slides : slides,
 

@@ -51,12 +51,12 @@ const Torre = () => {
         description: '',
       },
       {
-        src: 'https://drive.google.com/thumbnail?id=1u8ii9lERFK3n4um-OlYtjJ6jP3hlHYDr&sz=w1000',
+        src: 'https://drive.google.com/thumbnail?id=1BWnyZoSj7t5gIgcTRg4j4sgdpGpO59Jf&sz=w1000',
         title: '',
         description: '',
       },
       {
-        src: 'https://drive.google.com/thumbnail?id=1InRtewPlaWxSQrXMGflZLvxuz9GkiSwQ&sz=w1000',
+        src: 'https://drive.google.com/thumbnail?id=1l0xYZrxaoocuVA4H8uDEjCEtYYgVKZaw&sz=w1000',
         title: '',
         description: '',
       },
@@ -67,12 +67,12 @@ const Torre = () => {
         description: '',
       },
       {
-        src: 'https://drive.google.com/thumbnail?id=1InRtewPlaWxSQrXMGflZLvxuz9GkiSwQ&sz=w1000',
+        src: 'https://drive.google.com/thumbnail?id=1VxUfKVNjfUtkSovTjhOqYOP9f5a0I9Cr&sz=w1000',
         title: '',
         description: '',
       },
       {
-        src: 'https://drive.google.com/thumbnail?id=11XgPkLaQDBovYH_k-9EnEHT3TuKr_61g&sz=w1000',
+        src: 'https://drive.google.com/thumbnail?id=1XLfKlA7n3JNkY4NClx6sirdEnUygj-e5&sz=w1000',
         title: '',
         description: '',
       },
@@ -118,7 +118,7 @@ const Torre = () => {
         brief : 'A design-based zoning recontruction of a small residential village with a common swimming pool in Badolo, on the hills closed to Bologna.',
         
         detail: ['location','project year', 'status', 'category',],
-        info : ['Sasso Marconi (BO), Italy', '2022', 'Design', 'Design-based zoning reconstruction | Residential village'],
+        info : ['Sasso Marconi (BO), Italy', '2022', 'Design', 'Design-based Zoning Reconstruction | Residential Village'],
 
         slides : slides,
         

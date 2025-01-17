@@ -87,7 +87,7 @@ const CasaMartina = () => {
         
         
         detail: ['location','project year', 'status',  'category'],
-        info : ['Bologna, Italy', '2024', 'completed', 'Architecture and interior design | Residential'],
+        info : ['Bologna, Italy', '2024', 'Completed', 'Architecture and Interior Design | Residential'],
 
         slides : slides,
 
@@ -97,7 +97,7 @@ const CasaMartina = () => {
                 text : [
                   'Martina always pays attention to details and the combination of colors. She\'s a decisive but welcoming and sweet woman, so her house represents her in every detail. The color palette is straightforward, but combining materials and elements creates a unique and warm place to live.',
                   'At the apartment\'s entrance is a window with vertical glass panels framed in a thin and black structure. This architectural element filters the outside and the inside, creating a visual connection between the living room and kitchen. The black block of the kitchen is the signature of the owner; it is so strong but, at the same time, so elegant. All the rooms have black and white details,from fabrics to cabinet handles, from picture frames to lamps or a few radiators. Everywhere in the flat is a warm floor made with small wooden slats typical from the 70s, polished and renewed in some parts.',
-                  'The bathroom has a retrò taste, with tiles that recall the old grit floors but with a modern interpretation that stands out from details and finishes. A few plants complete the flat with a pop of green color in all rooms',
+                  'The bathroom has a retrò taste, with tiles that recall the old grit floors but with a modern interpretation that stands out from details and finishes. A few plants complete the flat with a pop of green color in all rooms.',
               ],
                 pics : slides
             }

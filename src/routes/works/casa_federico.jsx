@@ -50,7 +50,7 @@ const CasaFederico = () => {
         brief : 'Restyling of a residential villa.',
         
         detail: ['location','project year', 'status',  'category'],
-        info : ['Bologna, Italy', '2024', 'completed', 'Interior design | Residential'],
+        info : ['Bologna, Italy', '2024', 'Completed', 'Interior Design | Residential'],
 
         slides : slides,
 

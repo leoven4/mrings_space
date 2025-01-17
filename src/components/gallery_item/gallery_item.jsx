@@ -8,9 +8,9 @@ const GalleryItem = ({ item }) => {
     return (
         <Link className="gallery_item" to={`/${id}`}>
             <img src={imageUrl} alt={`${name}`} />
-            <div className="footer">
+            {/* <div className="footer">
                 <span className="name">{name} - {year}</span>
-            </div>
+            </div> */}
             <Button buttonType="inverted" >{name}</Button>
         </Link>
     );

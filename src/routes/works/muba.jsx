@@ -29,11 +29,6 @@ const Muba = () => {
       title: 'bedroom',
       description: '',
     },
-    // {
-    //   src: 'https://drive.google.com/thumbnail?id=1UksXgp5WW2d99zejRPogtzG7OzEFkCLR&sz=w1000',
-    //   title: 'bedroom',
-    //   description: '',
-    // },
     {
       src: 'https://drive.google.com/thumbnail?id=14w5J13VNiWMdpO4VkRP24cQTgGUUU0Vs&sz=w1000',
       title: 'wardrobe',
@@ -54,11 +49,11 @@ const Muba = () => {
       title: 'bedroom',
       description: '',
     },
-    // {
-    //   src: 'https://drive.google.com/thumbnail?id=1veCfVStfoGeCFkIz0ahIC4JoPF3ZfUF1&sz=w1000',
-    //   title: 'wardrobe',
-    //   description: '',
-    // }
+    {
+      src: 'https://drive.google.com/thumbnail?id=1UksXgp5WW2d99zejRPogtzG7OzEFkCLR&sz=w1000',
+      title: 'bedroom',
+      description: '',
+    },
     ]
 
     const work_item = {
@@ -74,13 +69,18 @@ const Muba = () => {
             {
                 subtitle : '',
                 text : [
-                  'The following project is a restyling of a residential villa on the hills of Bologna city, recently acquired by a couple - he\'s a lawyer, and she\'s a tour guide. The owners are looking for a quiet place, far from the chaotic lifestyle of the city, where they could host their friends and family in a comfortable and relaxing spot.',
-                  'The terraced house has two floors and one basement. The attic is addressed to the filing of the books\' owner and studying. The ground floor is the main subject of the restyling work. The project is focused on color analysis, wallpapers, graphics, and lighting design. For these reasons, a wooden boiserie system has been studied for the bedroom and the living room, combined with wallpapers that represent natural landscapes with a pictorial stroke. The defined colors are mid-blue and light blue, contrasting with coral red and light grey for some details and walls.',
-                  'A sizeable wooden column has been created at the entrance around an existing structural column with a rectangular hole in the middle. This element is considered an architectural sign to realize a separate hall from the living room but with a strong connection with the rest of the space in terms of colors and style. Finally, for the lighting system, the choice has fallen on some lamps connected with colorful belts starting from the existing electrical socket. All belts and lamp shapes create a geometrical and decorative draw on the ceiling, and all the walls remain intact.'   
-                
+                  'The city of Bologna is also known as Basket City. Since the very beginning of the 20th century the passion for basketball started to increase significantly in the city. In 1956 the mayor Giuseppe Dozza inaugurated the current indoor sporting arena named from its name PalaDozza. The iconic building is also nicknamed The Little Madison, after Madison Square Garden in New York City.',
+                  'Thanks to the effect that this sport has for the city, Bologna Welcome and the Municipality holds the competition to redevelop an area of the building, actually disused, for creating the first national basketball museum of the country: it will be a modern, interactive and playful place. ',
+                  'The exhibition space is formally divided into different thematic sectors, following the main rules of the basketball game. It means that there are 4 areas as quarters of the match, timeout and overtime sections, besides the reception, Walk of Fame and shop areas. Most of these rooms are open spaces, divided by mobile, light and perforated elements to allow for tailor the space according to need. Particular attention and analysis is given to multimedia and interactive technologies, which leads the visitor all over the exhibition tour and even outside. A mobile application, multimedia tables, interactive screenings, sound design devices are thought to make the experience unique and immersive. Even games and entertainment are essential, not only for kids, but also for adults. Being designed as a loop path, the return way is thought as a Walk of Fame furnished with mirrors on which are glued famous basketball stars life - size where visitors can make pictures and selfies.'
                 ],
-                pics : slides
-            }
+                pics : slides.slice(1,-2)
+            },
+            {
+              subtitle : '',
+              text : [],
+              pics : slides.slice(-1)
+          }
+
         ]   
         
     }

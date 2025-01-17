@@ -45,11 +45,6 @@ const GardenBall = () => {
     },
     {
       src: 'https://drive.google.com/thumbnail?id=10bnDeywvwX6E2DQs6uP-7ibCiEfo4KFx&sz=w1000',
-      title: 'bedroom',
-      description: '',
-    },
-    {
-      src: 'https://drive.google.com/thumbnail?id=10bnDeywvwX6E2DQs6uP-7ibCiEfo4KFx&sz=w1000',
       title: 'wardrobe',
       description: '',
     },
@@ -68,11 +63,7 @@ const GardenBall = () => {
       title: 'wardrobe',
       description: '',
     },
-    {
-      src: 'https://drive.google.com/thumbnail?id=1pOVjElExuwarX3Rnn3W5170Tf1VOPuRE&sz=w1000',
-      title: 'attic',
-      description: '',
-    }
+
     ]
 
     const work_item = {
@@ -81,7 +72,7 @@ const GardenBall = () => {
         
                 
         detail: ['location','project year', 'status',  'category'],
-        info : ['Bologna, Italy', '2020', 'design', 'Master Thesis | Urban regeneration'],
+        info : ['Bologna, Italy', '2020', 'design', 'Master Thesis | Urban Regeneration'],
 
         slides : slides,
 
